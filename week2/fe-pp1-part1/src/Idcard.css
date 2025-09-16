@@ -1,0 +1,37 @@
+.id-card {
+    display: flex;
+    align-items: flex-start;
+    /* align text block to the top of image */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.id-card img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.id-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* stack details from top */
+}
+
+.id-card-details p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.id-card-details strong {
+    font-weight: 600;
+    color: #222;
+}

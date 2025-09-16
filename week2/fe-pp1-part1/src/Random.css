@@ -1,0 +1,14 @@
+.random {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    /* add space around + center horizontally */
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+
+    max-width: 500px;
+    /* keep box from stretching too wide */
+}
